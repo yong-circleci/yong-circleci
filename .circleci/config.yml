@@ -25,3 +25,5 @@ jobs:
       - checkout
       - run: gradle dependencies
       - run: gradle test
+      - store_test_results:
+          path: build/test-results/test
