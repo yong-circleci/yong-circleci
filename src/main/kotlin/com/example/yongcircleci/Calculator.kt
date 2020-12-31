@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component
 @Component
 class Calculator {
     fun add(a: Int, b: Int): Int {
-        return a + b
+        return a - b
     }
 }
