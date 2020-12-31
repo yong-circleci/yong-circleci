@@ -12,6 +12,6 @@ internal class CalculatorTest {
 
     @Test
     fun `2 + 3 = 5`() {
-        assertEquals(5, sut.calculate(2, 3))
+        assertEquals(5, sut.add(2, 3))
     }
 }

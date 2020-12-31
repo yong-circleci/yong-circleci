@@ -17,6 +17,6 @@ class CalculateController(
         @PathVariable a: Int,
         @PathVariable b: Int
     ): Int {
-        return calculator.calculate(a, b)
+        return calculator.add(a, b)
     }
 }
